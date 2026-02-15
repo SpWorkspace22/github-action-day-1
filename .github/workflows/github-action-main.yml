@@ -1,0 +1,12 @@
+name: Run for main branch
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello FOr Main Branch"
+    
